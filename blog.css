@@ -1,0 +1,86 @@
+﻿* {
+    border-style: none;
+    border-width: medium;
+    margin: 8px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 2rem 9%;
+}
+
+.about .row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+
+    .about .row .video-container {
+        flex: 1 1 40rem;
+        position: relative;
+
+    }
+
+        .about .row .video-container video {
+            width: 100%;
+            border: 1rem lightgreen;
+            border-radius: .4rem;
+            box-shadow: 0 .5rem 1rem rgba(120, 44, 153, 0.1);
+            height: 100%;
+            object-fit: contain;
+
+        }
+
+
+    .about .row .content ol {
+        font-size: large;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .about .row .content {
+        flex: 1 1 40rem;
+    }
+
+        .about .row .content h3 {
+            font-size: 3rem;
+            color: lightseagreen;
+        }
+
+        .about .row .content p {
+            font-size: 1.5rem;
+            color: #5c5a5a;
+            padding: .5rem 0;
+            padding-top: 1rem;
+            line-height: 1.5;
+        }
+
+.visit {
+    font-size: large;
+}
+
+    .visit img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .visit table {
+        margin-top: 20px;
+    }
+
