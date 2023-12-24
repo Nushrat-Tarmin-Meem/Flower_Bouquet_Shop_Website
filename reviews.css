@@ -1,0 +1,8 @@
+﻿body {
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(https://cdn.shopify.com/s/files/1/0507/3754/5401/t/1/assets/FBBD_TOP.jpeg?v=1603733582);
+    background-size: cover;
+}
+
+.container h1 {
+    text-align:center;
+}
